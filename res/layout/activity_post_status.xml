@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    >
+
+    <EditText
+        android:id="@+id/editText_post_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="说点什么吧...."
+        android:ems="10"
+        android:singleLine="false" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_post_status"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText_post_status"
+        android:layout_below="@+id/editText_post_status"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="37dp"
+        android:onClick="doPost"
+        android:text="发送" />
+
+</RelativeLayout>

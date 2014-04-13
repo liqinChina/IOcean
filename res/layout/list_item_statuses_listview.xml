@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingLeft="5dp"
+    android:paddingRight="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/ic_com_sina_weibo_sdk_logo" />
+
+    <TextView
+        android:id="@+id/textView_status_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_status"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/imageView_status"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_status"
+        android:layout_below="@+id/textView_status_time"
+        android:layout_marginTop="14dp"
+        android:text="Large Text"
+         />
+
+    <TextView
+        android:id="@+id/textView_status_time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_status_username"
+        android:layout_below="@+id/textView_status_username"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView_status_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_status_text"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/textView_status_text"
+         />
+
+</RelativeLayout>

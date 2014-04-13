@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+  
+
+  
+
+
+
+                
+    
+    
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:paddingLeft="5dp"
+            android:paddingRight="25dp"
+            android:paddingTop="20dp"
+             >
+            
+              <ImageView
+        android:id="@+id/imageView_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_com_sina_weibo_sdk_logo" />
+
+    <TextView
+        android:id="@+id/textView_big_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/imageView_big"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView_big_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_big_text"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imageView_big"
+         />
+
+    
+
+  
+
+ 
+
+    <TextView
+        android:id="@+id/textView_big_time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_big_name"
+        android:layout_below="@+id/imageView_big"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_big_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_big_time"
+        android:layout_below="@+id/textView_big_time"
+        android:layout_marginTop="21dp"
+        android:text="Large Text"
+         />
+
+    <TextView
+        android:id="@+id/textView_tome_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_big_repost"
+        android:layout_alignBottom="@+id/textView_big_repost"
+        android:layout_toRightOf="@+id/textView_big_repost"
+        android:text="转发/" />
+
+    <TextView
+        android:id="@+id/textView_big_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_tome_name"
+        android:layout_alignBottom="@+id/textView_tome_name"
+        android:layout_toRightOf="@+id/textView_tome_name"
+        android:text="Text" />
+
+    <TextView
+        android:id="@+id/current_token_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_big_comment"
+        android:layout_alignBottom="@+id/textView_big_comment"
+        android:layout_toRightOf="@+id/textView_big_comment"
+        android:text="评论" />
+
+    <TextView
+        android:id="@+id/textView_big_repost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="51dp"
+        android:layout_toRightOf="@+id/textView_big_name"
+        android:text="Text" />
+
+        </RelativeLayout>
+                
+                
+         
+
+</RelativeLayout>
